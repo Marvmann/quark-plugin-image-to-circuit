@@ -17,6 +17,7 @@ class ExampleModule(Core):
 
     @override
     def preprocess(self, data: InterfaceType) -> Result:
+        print('test')
         raise NotImplementedError
 
     @override
